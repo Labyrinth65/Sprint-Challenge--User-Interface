@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,8 +68,30 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 980px;
+    padding: 0px 100px;
     margin: 0 auto;
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding-top: 30px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+
+.top-image {
+    display: block;
+    margin: 30px auto 30px auto;
 }
 
 .top-content {
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box01 {
+    background: teal;
+}
+
+.box02 {
+    background: gold;
+}
+
+.box03 {
+    background: cadetblue;
+}
+
+.box04 {
+    background: coral;
+}
+
+.box05 {
+    background: crimson;
+}
+
+.box06 {
+    background: forestgreen;
+}
+
+.box07 {
+    background: darkorchid;
+}
+
+.box08 {
+    background: hotpink;
+}
+
+.box09 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
